@@ -33,7 +33,7 @@ before_install:
   - echo -e "y" | ./tools/android update sdk -u -a -t 128
 
 script:
-  - travis_wait 60
+  - travis_wait 80
   - cd --
   - git clone https://github.com/OmarSalah1/DualBootPatcher Kwedar/DualBootPatcher/
   - cd $PWD/Kwedar/DualBootPatcher/
